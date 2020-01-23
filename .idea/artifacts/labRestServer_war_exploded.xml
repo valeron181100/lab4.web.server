@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="labRestServer:war exploded">
+    <output-path>$PROJECT_DIR$/web</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>labRestServer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="labRestServer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: asm:asm:3.3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.19.4" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20170516" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.19.4" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.19.4" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.9" />
+          <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.7.5" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:jakarta.persistence:2.2.3" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.9" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.9" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="labRestServer/web/Web" />
+    </root>
+  </artifact>
+</component>

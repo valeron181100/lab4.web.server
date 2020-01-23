@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="eclipselink-2.7.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../libs/eclipselink-2.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
