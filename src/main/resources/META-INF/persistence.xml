@@ -8,9 +8,9 @@
         <properties>
             <property name="eclipselink.target-database" value="PostgreSQL"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://pg/studs" />
-            <property name="javax.persistence.jdbc.user" value="<login>" />
+            <property name="javax.persistence.jdbc.user" value="s264444" />
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-            <property name="javax.persistence.jdbc.password" value="<password>" />
+            <property name="javax.persistence.jdbc.password" value="hqz388" />
             <property name="eclipselink.ddl-generation" value="create-tables"/>
         </properties>
     </persistence-unit>
